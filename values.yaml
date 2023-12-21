@@ -1015,6 +1015,9 @@ server:
       pod: {}
       container: {}
 
+  tests:
+    enabled: true
+
   # Should the server pods run on the host network
   hostNetwork: false
 
